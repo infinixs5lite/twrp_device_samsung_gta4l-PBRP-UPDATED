@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/gta4lwifi
+DEVICE_PATH := device/samsung/gta4l
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -40,7 +40,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gta4lwifi
+TARGET_OTA_ASSERT_DEVICE := gta4l
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := SRPTD23A003
