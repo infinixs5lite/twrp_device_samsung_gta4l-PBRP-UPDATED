@@ -18,7 +18,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), gta4lwifi)
+ifeq ($(TARGET_DEVICE), gta4l)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 include $(CLEAR_VARS)
 endif
