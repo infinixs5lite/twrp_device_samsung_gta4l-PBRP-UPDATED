@@ -170,3 +170,8 @@ TW_NO_EXFAT_FUSE := false
 TW_NO_HAPTICS := true
 TW_NO_LEGACY_PROPS := true
 TWRP_INCLUDE_LOGCAT := true
+TWRP_DEVICE_VERSION := Build by kelvin
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := "/sys/class/flashlight"
